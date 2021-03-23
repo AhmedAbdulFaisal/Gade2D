@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="left-up" width="50" height="50" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="texturesFORTRESS_01" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="texturesFORTRESS_01.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="257" name="texturesCAVE_01" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="texturesCAVE_01.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="513" name="texturesTRIM_01" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="texturesTRIM_01.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="577" name="LIGHTMAPS_01" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="LIGHTMAPS_01.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="641" name="texturesLAB_01" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="texturesLAB_01.png" width="256" height="256"/>
+  <tile id="64">
+   <animation>
+    <frame tileid="64" duration="100"/>
+    <frame tileid="65" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="897" name="texturesME_01" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="texturesME_01.png" width="256" height="256"/>
+ </tileset>
+ <layer name="background" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEob/+pZdjoGBtqaqqqqqqqqqq6vMHMZDUXRAnAAA=
+  </data>
+ </layer>
+ <layer name="tile" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Zf07rMAzHg5GQHjd4HIn/xw3gHuztJHCCticoJ3urVmveF9tx0p9IWLJomyz+fhY7zUJKvxa1u9HXjIXe0sX5vj9fN3T5241/czq34rgX181EjsPZafSXSj1t8PtKIlbUT/T9GevkWAPDm4jxCn0iczh4dN6T0JVjzLXTGOtg9GfenKZ/ZDvnhfb5qM4Ih9dfY9YctUu+HIeshy/If27/GuvjU2nX8m4Kh9QurzU+5GiFvm7kuVPaPxQOrWZSus0hqx86auc4EY5oPZe4rIWD0m4Z5w9rn8qxtEc5PO1zW0Rf1Lz1ammbkwPHXduWiBkd8/Hsz3TxP06/JjBgJGYf6CTXYIJ7y57SlePvhPhyffOsW4gjjfFPyvgcE3PfYno3nveF41hrvqYR42saerodg69bYzwrTlM4DgWurfiooWb9P1a+m+biGOKjBmtuvTrQ5iMyDu6vSLnujZgYf4750HIzMk6OY2BoAxxafVhxkEO2Dd8Fri2RcUrcs9x8PAj3vssj+VqtcWRM1ODdo1n1YcUv3Qdz/6U5psyH1l97FuXA+Wzo9t6zXH3I+BgnxyH7Rzj4rKmja43zb7Y55wOZ+CwI18iOvmuPcGj5GK3zkvrQOFqFo63gkLEjz9Bq3x9z+VwcXB+4n3zdkKOn2/O33B4xpet8lJ5tyfZoHtdyROZDGxffZWtzaLVeysH1qv2OwfNW7b0t2+TaVfLd1lguf6WGpoKj3YDD2nN4+7sTXdeK6J5laQ6LxdqXDD7o53fQ+444Sn0PHM9BrZZZeeX1X2o+PItwlHJvxTFlvbLW6bUNdeH/HXMcVv+1beoasOZ65dlUvdpZyJYcqMfTJDn47Jh9aw7UI9+J1mf2yOHljfXbXXJsXR9WLkU59lLnmBc1Z4F7qHPk0HIkx7CH+vgJ9h8U9RqJECcAAA==
+  </data>
+ </layer>
+ <layer name="detail1" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YTVLDMAyFO9mUG9A1XfCzpIsWlmVFtrChN6BbOBIXKJyAm2HPRNNXjSwritskTL8ZT4LtyH7GkuVOJmcszEN5CeU1lKsTjEdj8Sdv177l84waFqF8hPIZyr3QpzQ0Fn/ydu1bnCdpeIJ+64ldi7Ru2lqWhOYZ4Rp4n9ycpHXT1hK5TdTfGdsj6+YpacA+1jl5eEjUPxrbPeT80sNbon5jbJdAX5gL7Tm/9PCeqN8a2yXQFxbOeQ0B9AXNZyROFZ+OzTFjgUYuro2FXFwbC3XzfO5p/LgfyKe67ImSOr6qQz+n958q/U3cD+RTqT1x3TxvlLEtOix2It/VoZ/T+6+io4Z3aQ7TUJbN+yqUi4ydlA6rHS8pHbR2l6z/rHnyNU3paGvHS0rHkndkrBJ2uI62drzk9lVbOx4bUp6I7zvFL/j43jlwOx4bUp7Y9jy36FhX+4JEX6V1w7yY6qZGOyWw6KirfUGir9K6YV5Mddy3U3ZK0EVH67EGqgPPfylPxDuvZgeJPh3PQTy7+d/iHOHdogP3OJ7/Up4Y67D/kP4fWPCuK91/N8q3pemiA++60v13q3xbmlLnR9+gjtRvIn1ivaejjrgnYt7Gc1HtXsJjkqe/hvVcr9nfMW+bsTrtrir9Dte2fwm4DgnMNQiej3TpXwKLDsw1CJ6PdOlfAouOyLHyu1JYdQyd/6LDQp9xtyRjiLsWxhB3LYwh7p6xgfeoIZw/fD40Jyk29RmTvEixqc+Y5AVj0xBiUorc/sbYNKaY5PHVIfm5lzHP/dT8AXnz08YQJwAA
+  </data>
+ </layer>
+ <layer name="detail2" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XSwqAIBCAYcGF3SBvUDfQG0YniG6bC9sIYvmC7P9AFAfGBwijEAAAAMD4NinELuPxxfdr4Tq18sQc7gxn5BzKNePH1rUpc41aed66724O5rXvn95prTy5TCJuO+fBf6Tequqyi3I6EQ/fNgBgXK3rtl5Gqtt6/Q1aS9UbAAAAAIBvuwBxzPRpECcAAA==
+  </data>
+ </layer>
+ <layer name="water" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UMQqAMBAEwCPE7nyLT/D/v9I6SJAQJMgMbHVbbHURAAAAAAAAAP9VS8TZZCvz+l/Je8PRZO/syodbrw+srS72k0blyx8GMOoCOJcxqxAnAAA=
+  </data>
+ </layer>
+ <layer name="detail3" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Z207DMAyGu2hwwQoSB3EPD8C4Qrsae1QelVZqtF/GruM07jKUT4rWQ2r79+bmsK7z5TZ03X5qw/GPp68P8LWk0ThHDQ/hfP7urOUr6H1SwDipBq6PhJbXTyHeUjpinHtBA+0jxaTFc1hBB+VtsP09tVfGDxeTFk8v5AGf24Lfsd0Qm9r9uTi5+DCm2O4NeZXsU7vUpnbfqiOVrZCzUvY1sBbmaoYDY++FnK2lYwlS7EgtOmi9pdQcUouOnPcVaj9B3yOTE2vT3mtSO5HnUnRI40cJqO8lvo5MfqTvIMLNAbgx9m66t0scSyUdmh0aU6xzaeyT/HMxPA7nT9O15+HzJcEOpyPFjhSTZntOR8xdIH02TE7ndFjslNaBuZPAnEo6rHakmDjbiKQj9V18UHRY7eAzOJ7jcc06sI6xtrnjmnVY8NCxCfPzYlrbJfDQcQlq1kFrmhvLPeu8FOizD/xY7lnnI9xaTVq/SeS8W5ASOrj1TsoaKNfntfyuUvpSatIR5+vcXB2vpa5ZdhfSEaH1rtU4PoPEeZu0d+ZB6jrbupcojdNeeOlYm2vWkbPvwdX4SG17Prk0HctpOv7yX3Roe6KWOasVz/1Niuf31XTYaTp0mg47TYdO02Gn6dBZU0eJ/3Kta6IcfgHjgiq9ECcAAA==
+  </data>
+ </layer>
+ <layer name="gameplay" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PQQkAQAgAQTHVvewfyxJygswk2I0AAAAAAOCKl9sFc+rQCwAAAPBHA4wsZAQQJwAA
+  </data>
+ </layer>
+ <layer name="above" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAODfAC7KO00QJwAA
+  </data>
+ </layer>
+ <objectgroup name="collisions"/>
+ <objectgroup name="entities"/>
+ <objectgroup name="creatures"/>
+ <objectgroup name="script"/>
+ <objectgroup name="triggers"/>
+</map>

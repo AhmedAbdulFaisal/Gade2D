@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="left-up" width="50" height="50" tilewidth="16" tileheight="16" nextobjectid="205">
+ <tileset firstgid="1" name="texturesCOLOR_01" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="texturesCOLOR_01.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="257" name="LIGHTMAPS_01" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="LIGHTMAPS_01.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="321" name="texturesCAVE_01" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="texturesCAVE_01.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="577" name="texturesME_01" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="texturesME_01.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="833" name="texturesFORTRESS_01" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="texturesFORTRESS_01.png" width="256" height="256"/>
+ </tileset>
+ <layer name="background" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UMQ6AQAgEQKr7AP//q5YW3inGAs0U02zFkkBGRO7GhTw4y7qYzZyFrIPqjvXQo9Ljzi185c7HIl/17eAvPQB4l38PAAAAAAAAz20oGq3cECcAAA==
+  </data>
+ </layer>
+ <layer name="tile" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC92ZW47DMAhFPWpnB23/R3IW0m5h9r+XUaRaQgTwxYZMUqT74yQOB4gfcSmYPYjOYo+y9ftOdAaW1cd72frN245u3F9NR7dP4VjK1mfetjj7vBnKNOr3QtqWojNofq1tV0PZLGj9NP+pX9Q3iyGbhY5P1hhrxbp3Xbq/Z8+LLNQ3Hi+eAy3GKAOak9dFlse3G3DPrHrfPsKR5dsozyhHPYD/vdwgHI3liDxeDsrT678y7cHi5bBYmt/S/Zk8N5BDWi9wvyT/Uf4IaRzWvCuNsejaKCs3Gsf1/V7PnOBZ60V/Pz0Ob3/fb3E2yyJYsjikuuuxcKHvrAZHs5HY8Jw0ec1iotcKwDFSwygH9cPDJD2Dzh8RHDSOs7ka5UDrtnY4LM3smaLmcynf3nr05Gbt+/erP14h/Vj12iyKg8eMP+Pl8P7fGOGg8aExt4RyIPs9yUZry6vI8UrLixTr/+Dw7rs1DvodRbNk7M+5VaX9bBytD1pz0f9W9uRoLBn/h/bmyNJeHLXga5sjc0hcR+dA13uRLBkcaE4aSwRPFod3DT7Lg3CM9j+yn6iKIjjKRJyizvt6LN794EwNzzJpueLW2z9FzsN876Kdi0nnZL2210U/V8s8a7LqQqoTpC36+4jmeIJtEfuPTA6v9szFXnX1KRx1QJbP0v0/oArYRq/9AR+yg9gQJwAA
+  </data>
+ </layer>
+ <layer name="detail1" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TywmAMBBFUWN76sqVvwJiBZIKxKqdwISgILrMyD0wiFm9NyFVBQAAAADAu9rlse4vPZI/dXnTSdfGYN9NM8f8QWaRmVw+t2KXvL3mP9z1fDDW5YnXjl/7tC5/Q4E78A+ZOj2P72mUmfV/vt1tSeKdxD2n7Okt9fqe1kJz33nd96J5S903AAAAAACAVSdLTaoZECcAAA==
+  </data>
+ </layer>
+ <layer name="detail2" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAODfAC7KO00QJwAA
+  </data>
+ </layer>
+ <layer name="water" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAODfAC7KO00QJwAA
+  </data>
+ </layer>
+ <layer name="detail3" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAODfAC7KO00QJwAA
+  </data>
+ </layer>
+ <layer name="gameplay" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAODfAC7KO00QJwAA
+  </data>
+ </layer>
+ <layer name="above" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3X3QqAIAwFYK98Ad//XSO6kXAyh7ntdD4QIkT2Y0qlENHfVMW70ZyI6uC5doOIyFPzDmCjVvDy0czpR1RSbFLckfN5x6XtE4rIvbHI8P2sQsvFes5Fr8Msp9V8o+zhLHfSKdpaZKqZ9s7Okkum2tMDtVcI+7AJz1lkjJnoJNR7k7nEhLjPvs7nZL1G/+lo/dq1jnddpF55x0VEtNvsvLOcg5b1rON2AQWmAgEQJwAA
+  </data>
+ </layer>
+ <objectgroup name="collisions">
+  <object id="5" name="COLLISION" x="80" y="16" width="64" height="16"/>
+  <object id="6" name="COLLISION" x="144" y="16" width="16" height="32"/>
+  <object id="7" name="COLLISION" x="208" y="16" width="16" height="16"/>
+  <object id="9" name="COLLISION" x="48" y="48" width="16" height="48"/>
+  <object id="10" name="COLLISION" x="64" y="32" width="16" height="16"/>
+  <object id="11" name="COLLISION" x="144" y="144" width="16" height="16"/>
+  <object id="12" name="COLLISION" x="160" y="160" width="48" height="16"/>
+  <object id="13" name="COLLISION" x="160" y="108" width="48" height="20"/>
+  <object id="14" name="COLLISION" x="208" y="92" width="16" height="20"/>
+  <object id="15" name="COLLISION" x="144" y="92" width="16" height="20"/>
+  <object id="16" name="COLLISION" x="128" y="108" width="16" height="36"/>
+  <object id="17" name="COLLISION" x="80" y="108" width="16" height="36"/>
+  <object id="19" name="COLLISION" x="64" y="92" width="16" height="20"/>
+  <object id="20" name="COLLISION" x="208" y="144" width="32" height="16"/>
+  <object id="21" name="COLLISION" x="240" y="128" width="16" height="16"/>
+  <object id="22" name="COLLISION" x="256" y="112" width="32" height="16"/>
+  <object id="23" name="COLLISION" x="288" y="96" width="32" height="16"/>
+  <object id="24" name="COLLISION" x="320" y="112" width="32" height="16"/>
+  <object id="25" name="COLLISION" x="352" y="144" width="16" height="16"/>
+  <object id="26" name="COLLISION" x="368" y="96" width="16" height="48"/>
+  <object id="27" name="COLLISION" x="384" y="96" width="16" height="16"/>
+  <object id="28" name="COLLISION" x="400" y="80" width="112" height="16"/>
+  <object id="29" name="COLLISION" x="512" y="96" width="16" height="16"/>
+  <object id="30" name="COLLISION" x="528" y="112" width="16" height="16"/>
+  <object id="31" name="COLLISION" x="544" y="128" width="16" height="32"/>
+  <object id="32" name="COLLISION" x="560" y="160" width="32" height="16"/>
+  <object id="33" name="COLLISION" x="608" y="192" width="32" height="16"/>
+  <object id="34" name="COLLISION" x="592" y="176" width="16" height="16"/>
+  <object id="35" name="COLLISION" x="640" y="208" width="16" height="16"/>
+  <object id="36" name="COLLISION" x="656" y="224" width="16" height="16"/>
+  <object id="37" name="COLLISION" x="672" y="144" width="16" height="112"/>
+  <object id="38" name="COLLISION" x="688" y="128" width="96" height="16"/>
+  <object id="39" name="COLLISION" x="784" y="144" width="16" height="128"/>
+  <object id="40" name="COLLISION" x="784" y="332" width="16" height="468"/>
+  <object id="41" name="COLLISION" x="352" y="796" width="432" height="4"/>
+  <object id="42" name="COLLISION" x="368" y="688" width="208" height="16"/>
+  <object id="43" name="COLLISION" x="320" y="672" width="48" height="16"/>
+  <object id="44" name="COLLISION" x="272" y="656" width="48" height="16"/>
+  <object id="45" name="COLLISION" x="256" y="640" width="16" height="16"/>
+  <object id="46" name="COLLISION" x="240" y="608" width="16" height="32"/>
+  <object id="47" name="COLLISION" x="224" y="464" width="16" height="144"/>
+  <object id="48" name="COLLISION" x="192" y="464" width="32" height="16"/>
+  <object id="49" name="COLLISION" x="80" y="432" width="32" height="16"/>
+  <object id="50" name="COLLISION" x="176" y="412" width="32" height="20"/>
+  <object id="51" name="COLLISION" x="192" y="448" width="16" height="16"/>
+  <object id="52" name="COLLISION" x="208" y="396" width="48" height="20"/>
+  <object id="53" name="COLLISION" x="256" y="412" width="16" height="52"/>
+  <object id="54" name="COLLISION" x="272" y="460" width="16" height="52"/>
+  <object id="55" name="COLLISION" x="288" y="508" width="16" height="68"/>
+  <object id="56" name="COLLISION" x="304" y="572" width="64" height="20"/>
+  <object id="57" name="COLLISION" x="368" y="588" width="16" height="20"/>
+  <object id="58" name="COLLISION" x="384" y="604" width="16" height="20"/>
+  <object id="59" name="COLLISION" x="400" y="620" width="32" height="20"/>
+  <object id="60" name="COLLISION" x="432" y="636" width="32" height="20"/>
+  <object id="61" name="COLLISION" x="464" y="652" width="96" height="20"/>
+  <object id="62" name="COLLISION" x="560" y="672" width="16" height="16"/>
+  <object id="63" name="COLLISION" x="320" y="492" width="16" height="36"/>
+  <object id="64" name="COLLISION" x="368" y="492" width="16" height="36"/>
+  <object id="65" name="COLLISION" x="336" y="528" width="32" height="16"/>
+  <object id="66" name="COLLISION" x="336" y="476" width="32" height="20"/>
+  <object id="67" name="COLLISION" x="496" y="432" width="48" height="16"/>
+  <object id="68" name="COLLISION" x="448" y="384" width="16" height="16"/>
+  <object id="69" name="COLLISION" x="480" y="400" width="16" height="16"/>
+  <object id="70" name="COLLISION" x="560" y="416" width="48" height="16"/>
+  <object id="71" name="COLLISION" x="624" y="400" width="48" height="16"/>
+  <object id="72" name="COLLISION" x="672" y="332" width="16" height="56"/>
+  <object id="73" name="COLLISION" x="624" y="348" width="48" height="20"/>
+  <object id="74" name="COLLISION" x="560" y="364" width="64" height="20"/>
+  <object id="75" name="COLLISION" x="512" y="348" width="48" height="20"/>
+  <object id="76" name="COLLISION" x="432" y="332" width="80" height="20"/>
+  <object id="77" name="COLLISION" x="368" y="300" width="48" height="20"/>
+  <object id="78" name="COLLISION" x="416" y="316" width="16" height="20"/>
+  <object id="79" name="COLLISION" x="384" y="352" width="32" height="16"/>
+  <object id="81" name="COLLISION" x="336" y="368" width="32" height="16"/>
+  <object id="82" name="COLLISION" x="240" y="288" width="32" height="16"/>
+  <object id="83" name="COLLISION" x="272" y="304" width="32" height="16"/>
+  <object id="84" name="COLLISION" x="304" y="320" width="16" height="16"/>
+  <object id="85" name="COLLISION" x="320" y="336" width="16" height="16"/>
+  <object id="86" name="COLLISION" x="336" y="284" width="32" height="20"/>
+  <object id="87" name="COLLISION" x="320" y="268" width="16" height="20"/>
+  <object id="88" name="COLLISION" x="288" y="252" width="32" height="20"/>
+  <object id="89" name="COLLISION" x="224" y="236" width="64" height="20"/>
+  <object id="90" name="COLLISION" x="192" y="252" width="32" height="20"/>
+  <object id="91" name="COLLISION" x="176" y="268" width="16" height="20"/>
+  <object id="94" name="COLLISION" x="96" y="272" width="16" height="16"/>
+  <object id="95" name="COLLISION" x="32" y="256" width="64" height="16"/>
+  <object id="96" name="COLLISION" x="16" y="272" width="16" height="32"/>
+  <object id="97" name="COLLISION" x="0" y="304" width="16" height="64"/>
+  <object id="98" name="COLLISION" x="16" y="364" width="32" height="20"/>
+  <object id="99" name="COLLISION" x="48" y="396" width="48" height="20"/>
+  <object id="100" name="COLLISION" x="32" y="384" width="16" height="16"/>
+  <object id="101" name="COLLISION" x="96" y="412" width="16" height="20"/>
+  <object id="102" name="COLLISION" x="48" y="448" width="32" height="16"/>
+  <object id="103" name="COLLISION" x="32" y="464" width="16" height="32"/>
+  <object id="104" name="COLLISION" x="16" y="496" width="16" height="160"/>
+  <object id="105" name="COLLISION" x="32" y="652" width="16" height="36"/>
+  <object id="106" name="COLLISION" x="48" y="684" width="32" height="20"/>
+  <object id="107" name="COLLISION" x="48" y="704" width="16" height="16"/>
+  <object id="108" name="COLLISION" x="32" y="720" width="16" height="32"/>
+  <object id="109" name="COLLISION" x="16" y="752" width="16" height="48"/>
+  <object id="110" name="COLLISION" x="32" y="796" width="208" height="4"/>
+  <object id="111" name="COLLISION" x="64" y="144" width="16" height="16"/>
+  <object id="113" name="COLLISION" x="32" y="160" width="32" height="16"/>
+  <object id="114" name="COLLISION" x="16" y="176" width="16" height="32"/>
+  <object id="115" name="COLLISION" x="32" y="204" width="16" height="20"/>
+  <object id="116" name="COLLISION" x="48" y="220" width="32" height="20"/>
+  <object id="117" name="COLLISION" x="80" y="236" width="16" height="20"/>
+  <object id="118" name="COLLISION" x="160" y="0" width="48" height="16"/>
+  <object id="119" name="COLLISION" x="224" y="32" width="16" height="64"/>
+  <object id="140" name="COLLISION" x="96" y="252" width="16" height="20"/>
+  <object id="141" name="COLLISION" x="112" y="268" width="16" height="20"/>
+  <object id="142" name="COLLISION" x="192" y="272" width="48" height="16"/>
+  <object id="143" name="COLLISION" x="576" y="684" width="160" height="20"/>
+  <object id="144" name="COLLISION" x="176" y="432" width="16" height="16"/>
+  <object id="145" name="COLLISION" x="112" y="428" width="64" height="20"/>
+  <object id="157" name="COLLISION" x="752" y="684" width="32" height="20"/>
+  <object id="158" name="COLLISION" x="672" y="704" width="16" height="32"/>
+  <object id="159" name="COLLISION" x="592" y="704" width="16" height="32"/>
+  <object id="160" name="COLLISION" x="592" y="764" width="16" height="32"/>
+  <object id="161" name="COLLISION" x="672" y="764" width="16" height="32"/>
+  <object id="163" name="COLLISION" x="368" y="368" width="4" height="16"/>
+  <object id="164" name="COLLISION" x="372" y="364" width="4" height="16"/>
+  <object id="165" name="COLLISION" x="376" y="360" width="4" height="16"/>
+  <object id="166" name="COLLISION" x="380" y="356" width="4" height="20"/>
+  <object id="167" name="COLLISION" x="332" y="368" width="4" height="16"/>
+  <object id="168" name="COLLISION" x="328" y="364" width="4" height="16"/>
+  <object id="169" name="COLLISION" x="324" y="360" width="4" height="16"/>
+  <object id="170" name="COLLISION" x="320" y="352" width="4" height="20"/>
+  <object id="171" name="COLLISION" x="420" y="360" width="4" height="16"/>
+  <object id="172" name="COLLISION" x="428" y="368" width="4" height="16"/>
+  <object id="173" name="COLLISION" x="424" y="364" width="4" height="16"/>
+  <object id="174" name="COLLISION" x="416" y="352" width="4" height="20"/>
+  <object id="175" name="COLLISION" x="444" y="384" width="4" height="16"/>
+  <object id="176" name="COLLISION" x="440" y="376" width="4" height="16"/>
+  <object id="177" name="COLLISION" x="436" y="372" width="4" height="16"/>
+  <object id="178" name="COLLISION" x="432" y="372" width="4" height="16"/>
+  <object id="179" name="COLLISION" x="472" y="392" width="4" height="16"/>
+  <object id="180" name="COLLISION" x="468" y="388" width="4" height="16"/>
+  <object id="181" name="COLLISION" x="464" y="388" width="4" height="16"/>
+  <object id="182" name="COLLISION" x="476" y="400" width="4" height="16"/>
+  <object id="183" name="COLLISION" x="552" y="424" width="4" height="16"/>
+  <object id="184" name="COLLISION" x="556" y="420" width="4" height="20"/>
+  <object id="185" name="COLLISION" x="544" y="432" width="4" height="16"/>
+  <object id="186" name="COLLISION" x="548" y="428" width="4" height="16"/>
+  <object id="187" name="COLLISION" x="488" y="424" width="4" height="16"/>
+  <object id="188" name="COLLISION" x="484" y="420" width="4" height="16"/>
+  <object id="189" name="COLLISION" x="480" y="416" width="4" height="20"/>
+  <object id="190" name="COLLISION" x="492" y="432" width="4" height="16"/>
+  <object id="191" name="COLLISION" x="608" y="416" width="4" height="16"/>
+  <object id="192" name="COLLISION" x="612" y="408" width="4" height="16"/>
+  <object id="193" name="COLLISION" x="616" y="404" width="4" height="16"/>
+  <object id="194" name="COLLISION" x="620" y="400" width="4" height="20"/>
+  <object id="195" name="COLLISION" x="680" y="392" width="4" height="16"/>
+  <object id="196" name="COLLISION" x="684" y="388" width="4" height="20"/>
+  <object id="197" name="COLLISION" x="672" y="400" width="4" height="16"/>
+  <object id="198" name="COLLISION" x="676" y="396" width="4" height="16"/>
+ </objectgroup>
+ <objectgroup name="entities">
+  <object id="126" name="CRATE" x="512" y="704" width="12" height="12"/>
+  <object id="127" name="CRATE" x="532" y="704" width="12" height="12"/>
+  <object id="128" name="CRATE" x="544" y="704" width="8" height="8"/>
+  <object id="146" name="CRATE" x="480" y="736" width="12" height="12"/>
+  <object id="147" name="CRATE" x="492" y="736" width="12" height="12"/>
+  <object id="148" name="CRATE" x="480" y="748" width="12" height="12"/>
+  <object id="149" name="CRATE" x="492" y="748" width="12" height="12"/>
+  <object id="150" name="CRATE" x="472" y="736" width="8" height="8"/>
+  <object id="151" name="CRATE" x="504" y="752" width="8" height="8"/>
+  <object id="152" name="CRATE" x="544" y="772" width="12" height="12"/>
+  <object id="153" name="CRATE" x="548" y="764" width="8" height="8"/>
+  <object id="154" name="CRATE" x="536" y="776" width="8" height="8"/>
+  <object id="155" name="CRATE" x="532" y="716" width="8" height="8"/>
+  <object id="200" name="LOOTBOX" x="128" y="32" width="16" height="16"/>
+  <object id="202" name="LOOTBOX" x="80" y="32" width="16" height="16"/>
+  <object id="203" name="LOOTBOX" x="48" y="272" width="16" height="16"/>
+  <object id="204" name="LOOTBOX" x="608" y="704" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="creatures"/>
+ <objectgroup name="script"/>
+ <objectgroup name="triggers">
+  <object id="120" name="SPAWN" x="96" y="48" width="16" height="16"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="left-up" width="20" height="20" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="texturesME_01" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="texturesME_01.png" width="256" height="256"/>
+  <tile id="14">
+   <animation>
+    <frame tileid="14" duration="100"/>
+    <frame tileid="30" duration="100"/>
+    <frame tileid="46" duration="100"/>
+    <frame tileid="62" duration="100"/>
+    <frame tileid="78" duration="100"/>
+    <frame tileid="94" duration="100"/>
+    <frame tileid="110" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="15">
+   <animation>
+    <frame tileid="15" duration="100"/>
+    <frame tileid="31" duration="100"/>
+    <frame tileid="47" duration="100"/>
+    <frame tileid="63" duration="100"/>
+    <frame tileid="79" duration="100"/>
+    <frame tileid="95" duration="100"/>
+    <frame tileid="111" duration="100"/>
+    <frame tileid="127" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="257" name="LIGHTMAPS_01" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="LIGHTMAPS_01.png" width="128" height="128"/>
+ </tileset>
+ <layer name="background" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC3NhYGBwGcWjeBSP4lE8iknEABhsBrpABgAA
+  </data>
+ </layer>
+ <layer name="tile" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgoA1gpAAPRfMMKcCj5tHHPGxxSYl5XIyYeNQ84s0b7OllOJtHLQAA4h8ppUAGAAA=
+  </data>
+ </layer>
+ <layer name="detail1" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC93Q2wmAMAxA0egCqTqBupijdRRHMwELJTQPpT9auNBCej4C8O0zUTO1dPJWaqP2h/8Q4OAS3aPhneVFTXS8VHmeWVv0zpoXMaXleZbZsiJeMccBQCatqMcpc/mPHu3pbM3hC4+tUqpiqxT1NMsyNc+zNFPZS8hqmZYXsaTZ8nqdC0xdAQZABgAA
+  </data>
+ </layer>
+ <layer name="detail2" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGNqAHYg5gJiTSuapA7EGEGtSybxRMApGwSgYrgAAhYGNx0AGAAA=
+  </data>
+ </layer>
+ <layer name="water" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCkgHADV9EcVABgAA
+  </data>
+ </layer>
+ <layer name="detail3" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2IsREAIQzDXPBMAD8BsP+IuEianFs6606FBLyh0Y/2sLZ62YpBJ/3D2uplKxbd9IS11cs2xhgDXPBjIuJABgAA
+  </data>
+ </layer>
+ <layer name="gameplay" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCkgHADV9EcVABgAA
+  </data>
+ </layer>
+ <layer name="above" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCkgHADV9EcVABgAA
+  </data>
+ </layer>
+ <objectgroup name="collisions"/>
+ <objectgroup name="entities"/>
+ <objectgroup name="creatures"/>
+ <objectgroup name="script"/>
+ <objectgroup name="triggers"/>
+</map>

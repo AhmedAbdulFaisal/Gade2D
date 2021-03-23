@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="left-up" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="gui_01" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="../textures/gui_01.png" width="256" height="256"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="224" duration="100"/>
+    <frame tileid="225" duration="100"/>
+    <frame tileid="226" duration="100"/>
+    <frame tileid="227" duration="100"/>
+    <frame tileid="228" duration="100"/>
+    <frame tileid="229" duration="100"/>
+    <frame tileid="230" duration="100"/>
+    <frame tileid="231" duration="100"/>
+    <frame tileid="232" duration="100"/>
+    <frame tileid="233" duration="100"/>
+    <frame tileid="234" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="224">
+   <animation>
+    <frame tileid="224" duration="100"/>
+    <frame tileid="225" duration="100"/>
+    <frame tileid="226" duration="100"/>
+    <frame tileid="227" duration="100"/>
+    <frame tileid="228" duration="100"/>
+    <frame tileid="229" duration="100"/>
+    <frame tileid="230" duration="100"/>
+    <frame tileid="231" duration="100"/>
+    <frame tileid="232" duration="100"/>
+    <frame tileid="233" duration="100"/>
+    <frame tileid="234" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="240">
+   <animation>
+    <frame tileid="240" duration="50"/>
+    <frame tileid="241" duration="50"/>
+    <frame tileid="242" duration="50"/>
+    <frame tileid="243" duration="50"/>
+    <frame tileid="244" duration="50"/>
+    <frame tileid="245" duration="50"/>
+    <frame tileid="246" duration="50"/>
+    <frame tileid="247" duration="50"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="257" name="texturescavetrap_01" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="../textures/texturescavetrap_01.png" width="128" height="128"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="9" duration="100"/>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="12" duration="100"/>
+    <frame tileid="13" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="8">
+   <animation>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="321" name="TEXTURESplayer_01" tilewidth="16" tileheight="16" tilecount="81" columns="9">
+  <image source="../textures/TEXTURESplayer_01.png" width="144" height="144"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="9" duration="100"/>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="18" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="19" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="2">
+   <animation>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="11" duration="200"/>
+    <frame tileid="20" duration="200"/>
+    <frame tileid="29" duration="200"/>
+    <frame tileid="3" duration="200"/>
+    <frame tileid="12" duration="200"/>
+    <frame tileid="21" duration="200"/>
+    <frame tileid="30" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="13">
+   <animation>
+    <frame tileid="13" duration="500"/>
+    <frame tileid="14" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="22">
+   <animation>
+    <frame tileid="22" duration="500"/>
+    <frame tileid="23" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="31">
+   <animation>
+    <frame tileid="31" duration="500"/>
+    <frame tileid="32" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="36">
+   <animation>
+    <frame tileid="36" duration="50"/>
+    <frame tileid="37" duration="50"/>
+    <frame tileid="38" duration="50"/>
+    <frame tileid="39" duration="50"/>
+    <frame tileid="40" duration="50"/>
+    <frame tileid="41" duration="50"/>
+   </animation>
+  </tile>
+  <tile id="54">
+   <animation>
+    <frame tileid="54" duration="100"/>
+    <frame tileid="55" duration="100"/>
+    <frame tileid="56" duration="100"/>
+    <frame tileid="57" duration="100"/>
+    <frame tileid="27" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="402" name="texturecaveprop_02" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="../textures/texturecaveprop_02.png" width="128" height="128"/>
+  <tile id="24">
+   <animation>
+    <frame tileid="24" duration="100"/>
+    <frame tileid="25" duration="100"/>
+    <frame tileid="26" duration="100"/>
+    <frame tileid="27" duration="100"/>
+    <frame tileid="28" duration="500"/>
+    <frame tileid="27" duration="100"/>
+    <frame tileid="26" duration="100"/>
+    <frame tileid="25" duration="100"/>
+    <frame tileid="24" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="32">
+   <animation>
+    <frame tileid="32" duration="100"/>
+    <frame tileid="33" duration="100"/>
+    <frame tileid="34" duration="100"/>
+    <frame tileid="35" duration="100"/>
+    <frame tileid="36" duration="500"/>
+    <frame tileid="35" duration="100"/>
+    <frame tileid="34" duration="100"/>
+    <frame tileid="33" duration="100"/>
+    <frame tileid="32" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="466" name="TEXTUREScaveprop_01" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="../textures/TEXTUREScaveprop_01.png" width="128" height="128"/>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="30" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="5">
+   <animation>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="31" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="12">
+   <animation>
+    <frame tileid="12" duration="100"/>
+    <frame tileid="14" duration="100"/>
+    <frame tileid="12" duration="100"/>
+    <frame tileid="38" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="13">
+   <animation>
+    <frame tileid="13" duration="100"/>
+    <frame tileid="15" duration="100"/>
+    <frame tileid="13" duration="100"/>
+    <frame tileid="39" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="20">
+   <animation>
+    <frame tileid="20" duration="100"/>
+    <frame tileid="20" duration="100"/>
+    <frame tileid="20" duration="100"/>
+    <frame tileid="22" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="21">
+   <animation>
+    <frame tileid="21" duration="100"/>
+    <frame tileid="21" duration="100"/>
+    <frame tileid="21" duration="100"/>
+    <frame tileid="23" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="530" name="32X32sprite" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="C:/Users/tuama/Desktop/32X32sprite.png" width="512" height="512"/>
+  <tile id="17">
+   <animation>
+    <frame tileid="17" duration="150"/>
+    <frame tileid="64" duration="150"/>
+    <frame tileid="65" duration="150"/>
+   </animation>
+  </tile>
+  <tile id="33">
+   <animation>
+    <frame tileid="33" duration="100"/>
+    <frame tileid="34" duration="100"/>
+    <frame tileid="35" duration="100"/>
+    <frame tileid="36" duration="100"/>
+    <frame tileid="37" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="49">
+   <animation>
+    <frame tileid="49" duration="200"/>
+    <frame tileid="50" duration="200"/>
+    <frame tileid="49" duration="200"/>
+    <frame tileid="51" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,241,225,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,325,326,327,0,0,265,0,
+426,0,321,322,323,0,0,0,257,0,
+434,0,357,352,334,343,0,486,487,0,
+0,0,375,0,0,0,0,470,471,0,
+0,0,0,0,0,0,0,478,479,0,
+0,547,0,563,0,0,0,0,0,0,
+0,0,0,0,0,579,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,582,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

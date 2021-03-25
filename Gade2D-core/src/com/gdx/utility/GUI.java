@@ -25,7 +25,7 @@ public class GUI {
 	
 	public float CameraX, CameraY;
 	
-	public GUI(int x, int y) {
+	public GUI(float x, float y) {
 		
 		this.CameraX = x;
 		this.CameraY = y;

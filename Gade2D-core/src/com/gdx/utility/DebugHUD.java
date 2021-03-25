@@ -6,6 +6,7 @@ import java.util.Arrays;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.gdx.entity.Player;
 import com.gdx.states.GameState;
@@ -23,6 +24,8 @@ public class DebugHUD { //little hack makes DebugHUD extend Player
 	public ArrayList<textWidget> console;
 	private int integer = 0;
 	
+	private OrthographicCamera camera;
+	
 	public static String getText() {
 		return text;
 	}
@@ -31,7 +34,9 @@ public class DebugHUD { //little hack makes DebugHUD extend Player
 		DebugHUD.text = text;
 	}
 
-	public DebugHUD(float xPos, float yPos) {
+	public DebugHUD(OrthographicCamera cam, float xPos, float yPos) {
+		this.camera = cam;
+		
 		text = "";
 		tm = new TextManager(12);
 		console = new ArrayList<textWidget>();
@@ -51,7 +56,7 @@ public class DebugHUD { //little hack makes DebugHUD extend Player
 		float[] pj = {}; //dummy for boolean debugs
 		float[] cameraPOS = {GameState.getCamera().position.x, GameState.getCamera().position.y};
 		float[] md = {EntityManager.getPlayer().getClickDistance()};
-		float[] wmc = { GameState.generateWorldMouseCoords().x, GameState.generateWorldMouseCoords().y};
+		float[] wmc = { MathStuff.generateWorldMouseCoords(camera).x, MathStuff.generateWorldMouseCoords(camera).y};
 		float[] health = {EntityManager.getPlayer().getHealth()};
 		
 		

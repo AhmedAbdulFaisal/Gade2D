@@ -107,9 +107,9 @@ public class EntityManager {
 		for (int i = 0; i < entityList.size(); i++) {
 			Entity entity = entityList.get(i);
 			
-			if (entity.getBounds().contains((float) GameState.generateWorldMouseCoords().x, (float) GameState.generateWorldMouseCoords().y)) {
-				return true;
-			}
+			//if (entity.getBounds().contains((float) MathStuff.generateWorldMouseCoords(camera).x, (float) MathStuff.generateWorldMouseCoords(camera).y)) {
+			//	return true;
+			//}
 		}
 		return false;
 	}

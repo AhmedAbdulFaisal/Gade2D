@@ -13,6 +13,7 @@ import com.gdx.utility.Assets;
 import com.gdx.utility.DebugHUD;
 import com.gdx.utility.EntityManager;
 import com.gdx.utility.GUI;
+import com.gdx.utility.MathStuff;
 import com.gdx.utility.Worlds;
 
 public class GameState implements Screen{
@@ -22,7 +23,7 @@ public class GameState implements Screen{
 	public Worlds world;
 	final Gade engine;
 	public static OrthographicCamera camera;
-	public static ShapeRenderer shapeR;
+	//public static ShapeRenderer shapeR;
 	
 	public GUI gui;
 	public DebugHUD debugHUD;
@@ -59,14 +60,27 @@ public class GameState implements Screen{
 	/* load camera and HUD info */
 	
 	public void loadCamera() {
-		shapeR = new ShapeRenderer();
+		//shapeR = new ShapeRenderer();
 		
 		camera = new OrthographicCamera();
 		camera.setToOrtho(false, engine.WINDOW_WIDTH, engine.WINDOW_HEIGHT);
 		camera.update();
 		
 		gui = new GUI((int) camera.position.x,(int) camera.position.y);
-		debugHUD = new DebugHUD(0,0); //let's initialize HUD here temporarily
+		debugHUD = new DebugHUD(camera, 0,0); //let's initialize HUD here temporarily
+	}
+	
+	public void camera() {
+		
+		//set up camera
+		
+		camera = new OrthographicCamera();
+		camera.setToOrtho(false, engine.WINDOW_WIDTH, engine.WINDOW_HEIGHT);
+		camera.update();
+		
+		//end of camera initialization
+		
+		gui = new GUI(camera.position.x, camera.position.y); //update GUI
 	}
 	
 	@Override
@@ -78,9 +92,7 @@ public class GameState implements Screen{
 	
 	/* generate world coordinates for localized mouse coords */
 	
-	public static Vector3 generateWorldMouseCoords() {
-		return camera.unproject(new Vector3(Gdx.input.getX(), Gdx.input.getY(), 0));
-	}
+
 	
 	
 	/* render game elements */
@@ -111,7 +123,7 @@ public class GameState implements Screen{
 		
 		engine.batch.begin(); //render
 		engine.batch.setProjectionMatrix(camera.combined);
-		shapeR.setProjectionMatrix(camera.combined);
+		//shapeR.setProjectionMatrix(camera.combined);
 		world.render(engine.batch);
 		
 		engine.batch.end(); //render
@@ -123,7 +135,7 @@ public class GameState implements Screen{
 		debugHUD.render(engine.batch);//render
 		
 		if (EntityManager.ifMouseTouches()) {
-			engine.batch.draw(Assets.cursor_int, generateWorldMouseCoords().x - 16, generateWorldMouseCoords().y - 16, 32, 32);
+			engine.batch.draw(Assets.cursor_int, MathStuff.generateWorldMouseCoords(camera).x, MathStuff.generateWorldMouseCoords(camera).y - 16, 32, 32);
 		}
 		
 		engine.batch.end();//render

@@ -117,12 +117,10 @@ public class Worlds {
 	public void render(SpriteBatch batch) {
 		
 		em.render(batch);
-		//em.renderDebug(batch);
+		em.renderDebug(batch);
 	}
 	
 	public void tick(OrthographicCamera camera, SpriteBatch batch) {
-		float x = p.getX();
-		float y = p.getY();
 		
 		
 		

@@ -18,6 +18,7 @@ import com.gdx.utility.DebugHUD;
 import com.gdx.utility.EntityManager;
 import com.gdx.utility.Graphics;
 import com.gdx.utility.Inventory;
+import com.gdx.utility.MathStuff;
 import com.gdx.utility.TextManager;
 /* To be added
  * SKILLS
@@ -166,12 +167,12 @@ public class Player extends Creature {
 		// v.
 
 		// (y2 - y1) / (x2 - x1)
-		return (int) (((Gdx.graphics.getWidth() / 2)) - (GameState.generateWorldMouseCoords().x));
+		return (int) (((Gdx.graphics.getWidth() / 2)) - (MathStuff.generateWorldMouseCoords(GameState.camera).x));
 	}
 
 	private int calculateSlopeY() {
 		// (y2 - y1) / (x2 - x1)
-		return (int) (((Gdx.graphics.getHeight() / 2)) - (GameState.generateWorldMouseCoords().y));
+		return (int) (((Gdx.graphics.getHeight() / 2)) - (MathStuff.generateWorldMouseCoords(GameState.camera).y));
 	}
 
 	
@@ -314,12 +315,12 @@ public class Player extends Creature {
 		
 	}
 
-	private int posX, posY;
+	private float posX, posY;
 	private float dirLength;
 
 	public void calculateAngles() {
-		posX = (int) (GameState.generateWorldMouseCoords().x - x);
-		posY = (int) (GameState.generateWorldMouseCoords().y - y);
+		posX = ((MathStuff.generateWorldMouseCoords(GameState.camera).x) - x);
+		posY = ((MathStuff.generateWorldMouseCoords(GameState.camera).y) - y);
 		degrees = (float) Math.toDegrees(Math.atan2(posY, posX));
 		dirLength = (float) Math.sqrt(posX * (posX / 10) + posY * (posY / 10));
 	}
@@ -331,8 +332,8 @@ public class Player extends Creature {
 	@SuppressWarnings("static-access")
 	public void calculateMouseDistance() {
 		clickDistance = (float) Math
-				.sqrt((x - GameState.generateWorldMouseCoords().x) * (x - GameState.generateWorldMouseCoords().x)
-						+ (y - GameState.generateWorldMouseCoords().y) * (y - GameState.generateWorldMouseCoords().y));
+				.sqrt((x - MathStuff.generateWorldMouseCoords(GameState.camera).x) * (x - MathStuff.generateWorldMouseCoords(GameState.camera).x)
+						+ (y - MathStuff.generateWorldMouseCoords(GameState.camera).y) * (y - MathStuff.generateWorldMouseCoords(GameState.camera).y));
 	}
 
 

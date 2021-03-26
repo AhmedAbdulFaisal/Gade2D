@@ -14,6 +14,7 @@ import com.gdx.entity.PanelMK1;
 import com.gdx.entity.Pillar;
 import com.gdx.entity.SlidingDoorMechanical;
 import com.gdx.utility.EntityManager;
+import com.gdx.utility.MathStuff;
 
 public abstract class Entity {
 
@@ -212,36 +213,16 @@ public abstract class Entity {
 		}
 		return null;
 	}
-	public boolean ifMouseTouchesOtherEntity() {
-		for (int i = 0; i < EntityManager.entityList.size(); i++) {
-			Entity e = EntityManager.entityList.get(i);
-			if (e.getBounds().contains((float) GameState.generateWorldMouseCoords().x, (float) GameState.generateWorldMouseCoords().y)) {
-				return true;
-			}else {
-				return false;
-			}
-		}
-		return false;
-	}
 	
 	public boolean ifMouseTouches() {
 		
 		Entity e = this;
 		
-		if (e.getBounds().contains((float) GameState.generateWorldMouseCoords().x, (float) GameState.generateWorldMouseCoords().y)) {
+		if (e.getBounds().contains(MathStuff.generateWorldMouseCoords(GameState.camera).x,MathStuff.generateWorldMouseCoords(GameState.camera).y)) {
 			return true;
 		}else {
 			return false;
 		}
-		
-//		for (int i = 0; i < EntityManager.entityList.size(); i++) {
-//			Entity entity = EntityManager.entityList.get(i);
-//			
-//			if (entity.getBounds().contains((float) GameState.generateWorldMouseCoords().x, (float) GameState.generateWorldMouseCoords().y)) {
-//				return true;
-//			}
-//		}
-//		return false;
 	}
 	
 	
@@ -250,7 +231,7 @@ public abstract class Entity {
 		
 		for (int i = 0; i < EntityManager.entityList.size(); i++) {
 			Entity e = EntityManager.entityList.get(i);
-			if (e.getBounds().contains((float) GameState.generateWorldMouseCoords().x, (float) GameState.generateWorldMouseCoords().y)) {
+			if (e.getBounds().contains(MathStuff.generateWorldMouseCoords(GameState.camera).x,MathStuff.generateWorldMouseCoords(GameState.camera).y)) {
 				return e;
 			}else {
 				return null;
@@ -262,7 +243,7 @@ public abstract class Entity {
 	public boolean checkMouseCollisions() {
 		for (int i = 0; i < EntityManager.entityList.size(); i++) {
 			Entity e = EntityManager.entityList.get(i);
-			if (bounds.contains((float) GameState.generateWorldMouseCoords().x, (float) GameState.generateWorldMouseCoords().y)) {
+			if (e.getBounds().contains(MathStuff.generateWorldMouseCoords(GameState.camera).x,MathStuff.generateWorldMouseCoords(GameState.camera).y)) {
 				return true;
 			}
 		}

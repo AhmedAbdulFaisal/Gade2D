@@ -66,7 +66,7 @@ public class GameState implements Screen{
 		camera.setToOrtho(false, engine.WINDOW_WIDTH, engine.WINDOW_HEIGHT);
 		camera.update();
 		
-		gui = new GUI((int) camera.position.x,(int) camera.position.y);
+		gui = new GUI(camera.position.x,camera.position.y);
 		debugHUD = new DebugHUD(camera, 0,0); //let's initialize HUD here temporarily
 	}
 	
@@ -88,10 +88,6 @@ public class GameState implements Screen{
 		// TODO Auto-generated method stub
 		
 	}
-	
-	
-	/* generate world coordinates for localized mouse coords */
-	
 
 	
 	

@@ -39,25 +39,14 @@ public class Gade extends Game implements ApplicationListener{
 	public static Assets assets;
 	public SpriteBatch batch;
 	
-	public static void loadSettings() {
-		try {
-			Scanner scanner = new Scanner(new File("cfg.txt"));
-			
-			WINDOW_WIDTH = scanner.nextInt();
-			WINDOW_HEIGHT = scanner.nextInt();
-			
-			
-			scanner.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
-	
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
 		//assets = new Assets();
 		Assets.create();
+		
+		WINDOW_WIDTH = Gdx.graphics.getWidth();
+		WINDOW_HEIGHT = Gdx.graphics.getHeight(); 
 		
 		Gdx.graphics.setCursor(Gdx.graphics.newCursor(Assets.CURSOR_PASSIVE, 0,31));
 		

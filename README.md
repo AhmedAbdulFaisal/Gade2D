@@ -2,12 +2,6 @@
 A 2d game engine which utilizes libGDX, programmed in Java. 
 
 
-Table of Contents:
->Introduction / History
->Features
->Versions
->How to compile
->Used Applications
 
 
 Introduction/History
@@ -22,12 +16,12 @@ Many of the original iterations are unreleased and were merely learning endeavor
 Features
 ========
 
->8-directional top-down movement
->Inventory system with useable items
->Weapon system with a unique magazine-loading system
->Event-Management system which can detect clicking from the player to open interactives
->Health and ammunition
->Menu system with dialogue boxes
+*8-directional top-down movement
+*Inventory system with useable items
+*Weapon system with a unique magazine-loading system
+*Event-Management system which can detect clicking from the player to open interactives
+*Health and ammunition
+*Menu system with dialogue boxes
 
 
 

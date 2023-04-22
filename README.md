@@ -17,10 +17,15 @@ Features
 ========
 
 *8-directional top-down movement
+
 *Inventory system with useable items
+
 *Weapon system with a unique magazine-loading system
+
 *Event-Management system which can detect clicking from the player to open interactives
+
 *Health and ammunition
+
 *Menu system with dialogue boxes
 
 

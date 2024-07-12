@@ -11,8 +11,8 @@ public class Computer extends Item{
 		super(xPos, yPos, pick);
 		classify = item_states.GEAR;
 		id = 012;
-		itemName = "C-Tech Praxis DataComputer";
-		itemDesc = "(SPECS: 16Mhz, 64KB of RAM, Variable Bandwith and Antenna Strength)A Multi-purpose computer specifically built to transmit programs to nearby reviecers in your general vicinity. It has an upgradable signal strength and bandwith. Specifically, with a C-Tech Computer you can send programs to overload nearby computers, and view disks. if you have the skills, you can upgrade bandwith and antennae strength, thus allowing you to transmit higher tier software.";
+		itemName = "A Computer";
+		itemDesc = "A luggable computer. It doesn't seem to require a plug, but is rather primitive";
 		inventoryTexture = Assets.computer;
 		
 		bounds = new Rectangle(xPos, yPos, (WIDTH * 3) * 2, (HEIGHT * 2) * 2);

@@ -12,8 +12,8 @@ public class DataReader extends Item{
 		classify = item_states.GEAR;
 		id = 013;
 		
-		itemName = "C-Tech DataReader";
-		itemDesc = "(SPECS: 1Mhz, 8KB of RAM)A Suitable information reader that takes disks as input medium and outputs readable text only. With the DataReader, you can read any disk log you come across, but can't transmit data disks. Usefull for any investigator on the scene.";
+		itemName = "Data Reader";
+		itemDesc = "A PDA. It appears to read magnetic disks of some kind";
 		inventoryTexture = Assets.datareader;
 		
 		bounds = new Rectangle(xPos, yPos, (WIDTH * 3) * 2, (HEIGHT * 2) * 2);

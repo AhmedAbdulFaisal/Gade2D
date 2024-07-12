@@ -23,7 +23,7 @@ public class LMG extends Item{
 		id = 007;
 		
 		itemName = "7.62MM AR-01 Light Machine Gun"; 
-		itemDesc = "A standard LMG adopted by various nations after the 2100s, the AR-01 is a imitation of an ancient Japanese LMG from the 20th century. It is a common weapon among soldiers in most armies, and must be used prone";
+		itemDesc = "A Light Machine gun. Don't try to shoot while running";
 		inventoryTexture = Assets.lmg;
 		bulletTime = 0;
 		

@@ -25,7 +25,7 @@ public class Pistol extends Item{
 		id = 005;
 		
 		itemName = "10MM AF-02 Pistol";
-		itemDesc = " Manufactured in the early 2480s, the AF-02 is a suitable weapon from explorers to soldiers and is usefull in a variety of combat situations. Non automatic, up to 5 10mm bullets per round, AP rounds ONLY";
+		itemDesc = " A pistol given to soldiers and explorers. It seems to only work against armored targets.";
 		inventoryTexture = Assets.pistol;
 		bulletTime = 0;
 		
